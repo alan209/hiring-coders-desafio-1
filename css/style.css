@@ -1,0 +1,126 @@
+/* ---------- RESET --------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- HEADER ---------- */
+
+.header-logo{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bg{
+    background-image: url(../assets/image/layout/header-background.jpg);
+    background-attachment: fixed;
+}
+
+/* ---------- SECTION PRODUCTS ---------- */
+
+.section-product{
+    background-image: url(../assets/image/layout/section-products.jpg);
+    background-size: contain;
+    width: 100%;
+    height: auto;
+}
+
+.card-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 550px;
+    margin: 30px;
+    padding: 15px 40px;
+    border-radius: 15px;
+
+    background: #ffffff;
+    box-shadow: 3px 3px 6px #000000c5;
+}
+
+.price{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.card button, input{
+   padding: 15px 30px;
+   border-radius: 30px;
+   border: none;
+   margin: 10px 0px;
+   font-size: 20px;
+   cursor:pointer;
+}
+
+.card img{
+    max-width: 220px;
+}
+
+/* ---------- SECTION NEWSLETTER ---------- */
+
+.section-newsLetter{
+    background-image: url(../assets/image/layout/header-background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: center;
+    height: auto;
+    padding: 50px 0px;
+}
+
+.title{
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container-newsLetter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.section-newsLetter h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.container-newsLetter input{
+    font-size: 20px;
+    padding: 15px 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+form{
+    display: grid;
+}
+
+
+main section img{
+    width: 100%;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer{
+    height: 100px;
+    padding: 25px;
+    text-align: center;
+    background: rgba(9, 1, 121, 0.89);
+    color: #ffffff;
+}
